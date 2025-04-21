@@ -1,0 +1,22 @@
+{
+  "shared": {
+    "formulae": [],
+    "casks": [
+      "google-chrome",
+      "slack",
+      "visual-studio-code",
+      "zoom",
+      "malwarebytes"
+    ]
+  },
+  "roles": {
+    "Analyst": {
+      "formulae": ["python"],
+      "casks": ["tableau-public"]
+    },
+    "Developer": {
+      "formulae": ["node", "git"],
+      "casks": ["postman"]
+    }
+  }
+}
